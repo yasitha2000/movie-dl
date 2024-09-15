@@ -26,7 +26,7 @@ or
 npm i @DarkYasiyaofc/sinhalasub-movie
 ```
 
-## 🎈 Usage <a name="usage"></a>
+## 👨🏻‍🔧 Usage <a name="usage"></a>
 
 ```ts
 var { getMovies, getMovieDL, getMoviesSearch }  = require('@DarkYasiyaofc/sinhalasub-movie')
@@ -37,7 +37,7 @@ var { getMovies, getMovieDL, getMoviesSearch }  = require('@DarkYasiyaofc/sinhal
 
 ```ts
 // By Search
-var text = 'avengers' //movie name
+var text = 'Dead Pool' //movie name
 await getMovies(text) 
 ```
 ```ts
@@ -69,6 +69,37 @@ await getMovies(text)
   ]
 }
 ```
+
+## Get Search First Movie
+
+
+```ts
+// By Search
+var text = '2024' //movie name
+await getMoviesSearch(text) 
+```
+```ts
+
+//The results will look like this.
+
+{
+  status: true,
+  creator: 'Dark Yasiya',
+  result: {
+    title: 'Ronggeng Kematian (2024) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
+    imdb: '',
+    date: 'Mar. 28, 2024',
+    category: [ 'Drama', 'Horror', 'Thriller' ],
+    description: 'Ronggeng Kematian Sinhala Sub\n' +
+      'Ronggeng Kematian Sinhala Subtitles\n' +
+      'Ronggeng Kematian (2024) Sinhala Sub\n' +
+      'Ronggeng Kematian (2024) Sinhala Subtitles',
+    image: 'https://sinhalasub.lk/wp-content/uploads/2024/09/hEB6TvSfNqvdiCes4s7wjub4Zon-200x300.jpg',
+    dl_links: [ [Object], [Object], [Object] ]
+  }
+}
+```
+
 ## Get Movie Details and Download Links
 ```ts
 var url = 'https://sinhalasub.lk/movies/deadpool-2-2018-sinhala-subtitles/' // movie url
