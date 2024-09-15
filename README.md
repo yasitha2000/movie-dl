@@ -7,18 +7,6 @@
 <h2 align="center">SinhalaSub.LK Movie Downloader</h2>
 
 
-
-
-
-## 📝 Table of Contents
-
-- [About](#about)
-- [Getting Started](#getting_started)
-- [Usage](#usage)
-- [Authors](#authors)
-
-## 🧐 About <a name = "about"></a>
-
 The unofficial Scrap <a href="https://sinhalasub.lk/" > [https://sinhalasub.lk/] </a>
 
 ## 🏁 Getting Started <a name = "getting_started"></a>
