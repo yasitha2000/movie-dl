@@ -32,7 +32,7 @@ npm i @DarkYasiyaofc/sinhalasub-movie
 var { getMovies, getMovieDL, getMoviesSearch }  = require('@DarkYasiyaofc/sinhalasub-movie')
 
 ```
-## Get Movies/Twshows List 
+## Get Movies
 
 
 ```ts
@@ -46,244 +46,131 @@ await getMovies(text)
 
 {
   status: true,
-  creator: 'DARK YASIYA',
+  creator: 'Dark Yasiya',
   result: [
     {
-      title: 'Thangalaan (2024) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
-      imdb: 'IMDB 7.5',
-      year: '2024',
-      link: 'https://sinhalasub.lk/movies/thangalaan-2024-sinhala-subtitles/',        
-      image: 'https://sinhalasub.lk/wp-content/uploads/2024/08/dAci50FwevkdWIUzQWpdz7kSKHe-150x150.jpg',
-      description: 'Thangalaan Sinhala Sub Thangalaan Sinhala Subtitles Thangalaan (2024) Sinhala Sub Thangalaan (2024) Sinhala Subtitles Thangalaan (2024) Sinhala Subtitles | “K.G.F ආරම්භය” | සිංහල උපසිරැසි සමඟ ගැන ...'
-    },
-    {
-      title: 'K.G.F: Chapter 2 (2022) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
-      imdb: 'IMDB 8.3',
-      year: '2022',
-      link: 'https://sinhalasub.lk/movies/k-g-f-chapter-2-2022-sinhala-subtitles/',   
-      image: 'https://sinhalasub.lk/wp-content/uploads/2022/05/jxopEOrF2oIOQxsuvjdmgANqDOU-150x150.jpg',
-      description: 'KGF 2 Sinhala Subtitles K.G.F: Chapter 2 Sinhala Subtitles K.G.F: 
-Chapter 2 (2022) Sinhala Subtitles The blood-soaked land of Kolar Gold Fields (KGF) has a new overlord now – Rocky, whose name ...'
-    },
-    {
-      title: 'K.G.F: Chapter 1 (2018) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
-      imdb: 'IMDB 8.3',
+      title: 'Deadpool 2 (2018) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
+      imdb: 'IMDB 7.6',
       year: '2018',
-      link: 'https://sinhalasub.lk/movies/k-g-f-chapter-1-2018-sinhala-subtitles/',   
-      image: 'https://sinhalasub.lk/wp-content/uploads/2020/11/ltHlJwvxKv7d0ooCiKSAvfwV9tX-150x150.jpg',
-      description: 'KGF 1 (2018) Sinhala Subtitles A period drama set in the 1970s, KGF follows the story of a fierce rebel who rises against the brutal oppression in Kolar Gold Fields and becomes the symbol of hope ...'
+      link: 'https://sinhalasub.lk/movies/deadpool-2-2018-sinhala-subtitles/',        
+      image: 'https://sinhalasub.lk/wp-content/uploads/2018/05/gyfPKfFYcVW54MoqhYlwwDDIfJR-150x150.jpg',
+      description: 'Deadpool 2 Sinhala Sub Deadpool 2 Sinhala Subtitles Deadpool 2 (2018) Sinhala Sub Deadpool 2 (2018) Sinhala Subtitles Deadpool පලමු කතාවෙන් අවුරුදු 2කට 
+පස්සේ තමයි මේ විදියට වෙඩ් විල්සන්ගේ කෙරුවාව ...'
     },
     {
-      title: 'Yuva (2024) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
-      imdb: '',
-      year: '2024',
-      link: 'https://sinhalasub.lk/movies/yuva-2024-sinhala-subtitles/',
-      image: 'https://sinhalasub.lk/wp-content/uploads/2024/04/50qZ0Sdc6vQMgVhYP0WIYaL4ryZ-150x150.jpg',
-      description: 'Yuva Sinhala Sub Yuva Sinhala Subtitles Yuva (2024) Sinhala Sub Yuva (2024) Sinhala Subtitles Yuva (2024) – මල්ලවපොර පිටිය ජයගත් ඩිලිවරි කොල්ලා සුබ දවසක
-් ෆිල්ම් පිස්සනි… දින දෙකකින් ...'
-    },
-    {
-      title: 'Ooru Peru Bhairavakona (2024) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',   
-      imdb: 'IMDB 6.6',
-      year: '2024',
-      link: 'https://sinhalasub.lk/movies/ooru-peru-bhairavakona-2024-sinhala-subtitles/',
-      image: 'https://sinhalasub.lk/wp-content/uploads/2024/02/bPqtaVDJI2E8SheBhCgtktyBw6a-150x150.jpg',
-      description: 'Ooru Peru Bhairavakona Sinhala Sub Ooru Peru Bhairavakona Sinhala 
-Subtitles Ooru Peru Bhairavakona (2024) Sinhala Sub Ooru Peru Bhairavakona (2024) Sinhala Subtitles ආයුබෝවන් ඔයාල හැමෝටම! ඔන්න අද ...'
-    },
-    {
-      title: 'Salaar: Part 1 – Ceasefire (2023) Sinhala Subtitles | සිංහල උපසිරසි සමඟ'
-,
-      imdb: 'IMDB 6.6',
-      year: '2023',
-      link: 'https://sinhalasub.lk/movies/salaar-part-1-ceasefire-2023-sinhala-subtitles/',
-      image: 'https://sinhalasub.lk/wp-content/uploads/2023/12/bnVmFvn4f2FC2Ja00BApnz9Cmz9-150x150.jpg',
-      description: 'Salaar  Sinhala Sub Salaar  Sinhala Subtitles Salaar (2023) Sinhala Sub Salaar (2023) Sinhala Subtitles සුභ දවසක් හැමෝටම!! ඔයාලා හැමෝටම නිදුක් නීරෝගීමත
-්, සාමය, සතුට පිරෙන සුබම සුබ අලුත් ...'
-    },
-    {
-      title: 'Japan (2023) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
-      imdb: 'IMDB 3.4',
-      year: '2023',
-      link: 'https://sinhalasub.lk/movies/japan-2023-sinhala-subtitles/',
-      image: 'https://sinhalasub.lk/wp-content/uploads/2023/11/5Z8hNvpenAJJrtTFONoytov7zW9-150x150.jpg',
-      description: 'Japan Sinhala Sub Japan Sinhala Subtitles Japan (2023) Sinhala Sub Japan (2023) Sinhala Subtitles “කර්මය කියන්නේ මොකක්ද කියල ඔයා දන්නවද ? ඔයා ජීවිතයේ ගහ
-ල මරපු මැස්සෝටික එක දවසක් ඩයිනෝසරයෙක්වෙලා ...'
-    },
-    {
-      title: 'Ghost (2023) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
-      imdb: '',
-      year: '2023',
-      link: 'https://sinhalasub.lk/movies/ghost-2023-sinhala-subtitles/',
-      image: 'https://sinhalasub.lk/wp-content/uploads/2023/11/zRLqjoVrlkUOJ2XTLah6SXsqB89-150x150.jpg',
-      description: 'Ghost Sinhala Sub Ghost Sinhala Subtitles Ghost (2023) Sinhala Sub Ghost (2023) Sinhala Subtitles සුභ දවසක් හැමෝටම!! මේ අරං එන්නේ ඔක්තොම්බර් 19 දින ඉදන්
- Pan Indian චිත්‍රපටයක් විදියට ලොව පුරා ...'
-    },
-    {
-      title: 'Red Sandal Wood (2023) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
+      title: 'Deadpool (2016) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
       imdb: 'IMDB 8',
-      year: '2023',
-      link: 'https://sinhalasub.lk/movies/red-sandal-wood-2023-sinhala-subtitles/',   
-      image: 'https://sinhalasub.lk/wp-content/uploads/2023/10/e3mAfFdiKrdhQ3lHtzGRYBWDggj-150x150.jpg',
-      description: 'Red Sandal Wood Sinhala Sub Red Sandal Wood Sinhala Subtitles Red 
-Sandal Wood (2023) Sinhala Sub Red Sandal Wood (2023) Sinhala Subtitles සුභ දවසක් හැමෝ
-ටම!! වනක්කම් හැමෝටම… ඔන්න අදත් අරන් ආව ...'
-    },
-    {
-      title: 'Jailer (2023) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
-      year: '2023',
-      link: 'https://sinhalasub.lk/movies/jailer-2023-sinhala-subtitles/',
-      image: 'https://sinhalasub.lk/wp-content/uploads/2023/08/jailer-special-poster-2-150x150.jpg',
-      description: 'Jailer Sinhala Sub Jailer Sinhala Subtitles Jailer (2023) Sinhala 
-Sub Jailer (2023) Sinhala Subtitles සුභ දවසක් හැමෝටම!! ORIGINAL WEB-DL පිටපත යාවත්කාලීhala 
-න (UPDATE) කර ඇත. ඒයි, මෙහේ මම තමයි රජා. මම ...'
+      year: '2016',
+      link: 'https://sinhalasub.lk/movies/deadpool-2016-sinhala-subtitles/',
+      image: 'https://sinhalasub.lk/wp-content/uploads/2016/02/3E53WEZJqP6aM84D8CckXx4pIHw-150x150.jpg',
+      description: 'Deadpool Sinhala Sub Deadpool Sinhala Subtitles Deadpool (2016) Sinhala Sub Deadpool (2016) Sinhala Subtitles වේඩ් විල්සන් කියන්නේ විශේෂ බලකායේ සේවය කරප
+ු, පසු කාලීනය අගෞරවාන්විතව සේවයෙන් නෙරපූ ...'
     }
   ]
 }
 ```
 ## Get Movie Details and Download Links
 ```ts
-var url = 'https://sinhalasub.lk/movies/rrr-2022-sinhala-subtitles/' // movie url
-await SinhalaSub.movie(url)
+var url = 'https://sinhalasub.lk/movies/deadpool-2-2018-sinhala-subtitles/' // movie url
+await getMovieDL(url)
 ```
 ```ts
 //result
-{
-  "status": true,
-  "code_creator": {
-    "name": "Thisal Sanujaya",
-    "github": "@sanuwaofficial"
-  },
-  "result": {
-    "title": "RRR (2022) Sinhala Subtitles | සිංහල උපසිරසි සමඟ",
-    "subtitle_author": "రౌద్రం రణం రుధిరం",
-    "categories": ["Action","Drama","History","Telugu","War"],
-    "release_date": "Mar. 24, 2022",
-    "country": "India",
-    "duration": "187 Min.",
-    "director": { "name": "S.S. Rajamouli","link": "https://sinhalasub.lk/director/s-s-rajamouli/"},
-    "cast": [
-      {"name": "N.T. Rama Rao Jr.","link": "https://sinhalasub.lk/cast/n-t-rama-rao-jr/"},
-      {"name": "Ram Charan","link": "https://sinhalasub.lk/cast/ram-charan/"},
-      8 more...
-    ],
-    "desc": "",
-    "images": [
-      "https://sinhalasub.lk/wp-content/uploads/2022/03/u0XUBNQWlOvrh0Gd97ARGpIkL0-200x300.jpg",
-      "https://images.hindustantimes.com/img/2022/04/01/1600x900/RRR-Movie-Review_1648825470847_1648825479894.jpg",
-      "https://image.tmdb.org/t/p/original/mQBz0kkJw9gWW1accn1UIPVnvtL.jpg",
-     8 more...
-    ],
-    "dl_links": [
-      {
-        "quality": "FHD 1080p",
-        "size": "4.55 GB",
-        "link": "https://001.sinhalaking.tk/0:/Movie/Telugu/RRR%20(2022)/www.SinhalaSub.net%20-%20RRR%20(2022)%20Telugu%20HQ%20HDRip%201080p.mp4"
-      },
-      {
-        "quality": "HD 720p",
-        "size": "2.03 GB",
-        "link": "https://001.sinhalaking.tk/0:/Movie/Telugu/RRR%20(2022)/www.SinhalaSub.net%20-%20RRR%20(2022)%20Telugu%20HQ%20HDRip%20720p.mp4"
-      },
-    8 more...
-    ]
-  }
-}
-
-```
-## Get Tvshow Details and episode Links
-```ts
-var url = 'https://sinhalasub.lk/tvshows/money-heist-2017-sinhala-subtitles/' // tvshow url
-await SinhalaSub.tvshow(url)
-```
-```ts
-//result
-
 {
   status: true,
-  code_creator: { name: 'Thisal Sanujaya', github: '@sanuwaofficial' },
+  creator: 'Dark Yasiya',
   result: {
-    title: 'Money Heist (2017 – 2021) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
-    categories: [ 'Crime', 'Drama', 'Spanish'],
-    info: {
-      Original_title: "La Casa de Papel",
-      TMDb_Rating: " 8.3 16,046 votes ",
-      First_air_date: "May. 02, 2017",
-      Last_air_date: "Dec. 03, 2021",
-      Seasons: "3",
-      Episodes: "41",
-      Average_Duration: "70 minutes "
-    },
-    cast: [
-           { name: 'Álvaro Morte', link: 'https://sinhalasub.lk/cast/alvaro-morte/' },
-           { name: 'Úrsula Corberó', link: 'https://sinhalasub.lk/cast/ursula-corbero/' },
-           8 more...
-          ],
-    links: [ 
-            [
-             { episode: '1 - 1',
-               link: 'https://sinhalasub.lk/episodes/money-heist-s1e1/'},
-             {
-              episode: '1 - 2',
-              link: 'https://sinhalasub.lk/episodes/money-heist-s1e2/' },
-             11 more...
-           ], 
-           [
-             { episode: '2 - 1',
-               link: 'https://sinhalasub.lk/episodes/money-heist-s2e1/'},
-             { episode: '2 - 2',
-               link: 'https://sinhalasub.lk/episodes/money-heist-s2e2/' },
-             7 more...
-           ],
-            3 more... 
-          ]
-  }
-}
-```
-## Get Episode Details and download Links
-```ts
-var url = 'https://sinhalasub.lk/episodes/money-heist-s2e2/' // episode url
-await SinhalaSub.episode(url)
-```
-```ts
-//result
-{
-  "status": true,
-  "code_creator": {
-    "name": "Thisal Sanujaya",
-    "github": "@sanuwaofficial"
-  },
-  "result": {
-    "title": "Money Heist (2017 – 2021) Sinhala Subtitles | සිංහල උපසිරසි සමඟ: 2x2",
-    "desc": "The Professor recruits Martin to put his brother’s plan into action and target the Bank of Spain. First step? Create total chaos.",
-    "release_date": "Jul. 19, 2019",
-    "images": [
-      "https://image.tmdb.org/t/p/original/wg7nd7r0Iptr2W8kW37OSed1C4q.jpg",
-      "https://image.tmdb.org/t/p/original/cwFuj35BzUNWSNSoAyOscwpAT2n.jpg"
-    ],
-    "dl_links": [
-      {
-        "quality": "HD 720p",
-        "size": "470 MB",
-        "link": "https://001.sinhalaking.tk/0:/TV/Money%20Heist%20(TV%20Series%202017%E2%80%932021)/S02/www.SinhalaSub.net%20-%20La.Casa.de.Papel.S02E02%20WEBRip%20720p.mp4"
-      },
-      {
-        "quality": "HD 720p",
-        "size": "470 MB",
-        "link": "https://002.sinhalaking.tk/0:/TV/Money%20Heist%20(TV%20Series%202017%E2%80%932021)/S02/www.SinhalaSub.net%20-%20La.Casa.de.Papel.S02E02%20WEBRip%20720p.mp4"
-      },
-      {
-        "quality": "HD 720p",
-        "size": "470 MB",
-        "link": "https://003.sinhalaking.tk/0:/TV/Money%20Heist%20(TV%20Series%202017%E2%80%932021)/S02/www.SinhalaSub.net%20-%20La.Casa.de.Papel.S02E02%20WEBRip%20720p.mp4"
-      }
-    ]
+    title: 'Deadpool 2 (2018) Sinhala Subtitles | සිංහල උපසිරසි සමඟ',
+    imdb: '7.6',
+    date: 'May. 10, 2018',
+    category: [ 'Action', 'Adventure', 'Comedy' ],
+    description: 'Deadpool පලමු කතාවෙන් අවුරුදු 2කට පස්සේ තමයි මේ විදියට වෙඩ් වි
+ල්සන්ගේ කෙරුවාව බලන්න හැමෝම සූදානම් වෙන්නේ. වේඩ් විල්සන් කියන්නේ කවුද කියලා පලමු
+ කතාව බලපු හැමෝම දන්නවා ඇතිනේ. කතාවේ මුල හරියෙන්ම කෙල්ල සෙට්වෙලා අවුරුද්දක් වැනේ
+සා එක්ක ඇදේම ගත කරපු මිනිහා කසාද බදින්න කියලා ඇද උඩම විවාහා ගිවිසලා ඇදෙන් බැහැලා
+ චූ පාරක් දාන්න පැත්තකට ගියපු ගමන් කලන්තේ දාලා බිම ඇදගෙන වැටෙනවා. ඊට පස්සේ තමයි 
+දැනගන්නේ මිනිහට සහලෝල පිලිකාව බව. ඉතිං අන්තිමට පිලිකාව සනීප කරගන්න කියලා නීති වි
+රෝධී පර්යේශණයකට භාජනය වෙන වේඩ් විල්සන් වුල්වරීන්ට හා සමාන බලයක් සහිත කෙනෙක් බවට 
+පත් වෙනවා.අතින් අස්ථිමය උල් පිට නොවුනත් වුල්වරීන් හා සමාන සුව වීමේ ශක්තියක් ඩෙඩ්
+පූල්ට තියෙනවා. ඒ වගේම අතක් පයක් ගැලවිලා ගියත් ඩෙඩ්පූල්ගේ ඒක ආපහු වැවෙන බවත් කලින
+් කතාව බලපු අයට දකින්න ලැබෙන්න ඇති. ඒ වගේම ගොඩක් අයට ගැටලුවක් වුනු දෙයක් තමයි Ry
+an Reynolds, වේඩ් විල්සන් හෙවත් ඩෙඩ්පූල් විදියට X-Men Origins (2009) කතාවේ හිටපු
+ බව. එත් අන්තිමට ස්ට්‍රකර් අතින් එයා සුපිරි ආයුධයක් බවට පත් වෙලා වුල්වරීන් සහ එය
+ාගේ සහෝදරයා වෙන සේබර්ටූත් එක්ක එකට සටන් කරනවා. ඒත් අවසානයේ ඒ කතාවේ ඩෙඩ්පූල් වුල්
+වරීන්ට පරදිනවා. ඒ වගේම තමයි ඩෙඩ්පූල් කියන චරිතය කොමික් වල විදියට ඇන්ටි-හීරෝ කෙනෙ
+ක් නැතුව තනිකරම දුශ්ඨයෙක් කරලා තමයි සිනමාව හරහා පෙන්වන්නේ. මෙතනදී තමයි සම්පූර්ණ 
+අසාර්ථකත්වටය පත්වුනු Green Lantern (2011) කතාව හරහා බ්ලැක් විඩෝව දික්කසාද කරලා ත
+මුන්ගේ සැබෑ ජීවිතේ අනාගත බිරිද වුනු බ්ලේක් ලයිව්ලි කරකාර බන්දගෙන DC වලට නොසෑහෙන්
+න දෙස් දෙවොල් තියාගෙන ඩෙඩ්පූල් චරිතෙට අලුත් ආරම්භයක් දෙන්න ඕනේ කියලා රයන් රෙනෝල්
+ඩ්ස් හිතන්නේ. අවුරුදු ගානක් කට්ට කාලා අන්තිමට මිනිහා FOX ස්ටුඩියෝ එක කැමති කරවා 
+ගන්නවා චිත්‍රපටියක් නිර්මාණය කරන්න. ඒ උත්සාහය තමයි අවුරුදු ගානකට පස්සේ 2016 දී ම
+ුල්ම ඩෙඩ්පූල් චිත්‍රපටිය විදියට එලිදැක්වුනේ. මෙතනදී ප්‍රධාන නලුවා තනිකරම ප්‍රධාන
+ නලුවා විතරක් නෙමෙයි. කතාවේ නිශ්පාදක කෙනෙක් වගේම රචකයෙක් විදියටත් සැලකියයුතු දාය
+කත්වයක් මේ කතාවට ලබා දෙන්නේ. ඒ ගමන් මගේ හැලහැප්පිලි තමා කතාව ඇතුලේ යම් යම් තැන් 
+වල අපට නොතේරෙන විහිලු විදියට අහන්න ලැබෙන්නේ.Fox ස්ටුඩියෝ එක චිත්‍රපටිය හදන වැඩේට
+ අන්තිමට එකඟ වුනත් ඩෙඩ්පූල් කතාවේ සාර්ථකත්වය ගැන කිසිම විශ්වාසයක් තිබුනේ නැති නි
+සා FOX විසින් මෙතෙක් කාලයක් සාර්ථකව ඉදිරියට පවත්වාගෙන ආපු කිසිම X-Men චරිතයක් ඩෙ
+ඩ්පූල් කතාවට ලබා දෙන්නේ නෑ. ඒකට හේතුව තමයි හදිසියේවත් ඩෙඩ්පූල් කතාව අසාර්ථක වුනො
+ත් ඔවුන් මෙතෙක් දුරට ගෙන ආපු X-Men කතාව සාර්ථකව ගලාගෙන ආපු ආකාරයට එය බාධාවක් වෙන
+ නිසා. නමුත් චාර්ල්ස් එක්සේවියර්ගේ මන්දිරය සමග මෙතෙක් සිනමාව තුල අප්‍රසිද්ධව තිබ
+ුනු චරිත කිහිපයක්, ඒ කියන්නේ පැත්තකටම දාලා තිබුනු චරිත කීපයක් අරගෙන කුණු දූවිලි 
+පිහදාලා හොද ගැලපෙන නලු නිලි පිරිසක් ඒ චරිත වලට ආරූඪ කරලා, තමුන්ගේ උප්පත්තියෙන් ආ
+පු කටකැඩිච්චි ගතියෙන් ඔප දාලා, සාර්ථකව පලමු චිත්‍රපටය නිර්මාණය කරනවා. ඔයාලා පලවෙ
+නි කතාව බැලුවා නම් මතක ඇති ඩෙඩ්පූල් වතාවක් දෙවතාවක් අහනවා “කෝ අනිත් X-Men ලා”කිය
+ලා.ඒ වගේම තමයි X-Men කතාව වුනත් අනාගතය, අතීතය විදියට කොටස් දෙකකට බෙදිලා, ඉස්සර ඉ
+දන් කතාව බලපු සමහරක් අයටත් දැන් ඒක අච්චාරුවක් වෙලා තියෙන්නේ. ඇත්තටම X-Men: Days 
+of Future Past (2014) ෆිල්ම් එකේදී වුල්වරීන් අතීතයට ගියත්, එතනදී ටයිම් ලයින් එක 
+දෙකට බෙදිලා අතීතය වෙනස්ම විදියකට ගලාගෙන යනවා. ලෝගන් වයසට ගිහිල්ලා මැරෙන්නේ අපිට 
+හුරු පුරුදු අපි පුංචි කාලේ ඉදන් බලාගෙන ආපු ෆිල්ම් සෙට් එකට අදාල කොටසක් විදියටයි.
+ අන්න ඒ නිසා තමයි ඩෙඩ්පූල් පලමු කතාවේදී කොලෝසස් ඩෙඩ්පූල්ට මහපාරේ තඩිබාන වෙලාවේදී
+ “මැකවෝයි ද ස්ටුවර්ට් ද? මේ කාල රාමුව හරියට පැටලෙනවා…” කියලා කියන්නේ. මොකද කිව්ව
+ොත් චිත්‍රපටිය බලන කවුරුවත් දන්නෙත් නෑ මේක අතීතෙන් බෙදිලා ගියපු ටයිම් ලයින් එකට 
+සෙට් වෙන කතාවක්ද නැතිනම්, ලෝගන් වයසට ගිහිල්ලා මැරෙන ටයිම් ලයින් එකට අදාල කතාවක්ද
+ කියලා. හැබැයි ඒ ගැටලුව මේ චිත්‍රපටියේදී ලොකු ඊස්ටර් එග් එකකින් නිරාකරණය කරනවා. 
+ඒ වුනත් අපි ගොඩක් දෙනෙක් දන්නවා මේ කතාව අදාල ටයිම් ලයින් එක මොකක්ද කියලා.ඒ වගේම 
+තමයි DC vs Marvel ගැටුම. වෙන කිසිම කතාවකදී DC සහ Marvel යන ආයතන දෙක එකිනෙකට ඝට්ට
+නය වෙන්න නොදී වෙන් වෙන්ව ඔවුන්ගේ චරිත පවත්වාගෙන යනවා. ඒ ඒ කොමික් නිසා අපිට සාමාන
+්‍ය ව්‍යවහාරයට ආපු නම් පවා අනෙක් ආයතන වලින් භාවිතා කරන්නේ හරි පරිස්සමෙන්. මොකද ක
+ිව්වොත් අයිතිය පිලිබද හෝ වෙන මොකක්හරි හේතුවක් නිසා මතභේදයන් ඇතිවෙන්න පුළුවන් නිස
+ා. ඒත් ඩෙඩ්පූල් කියන්නේ හැම වෙලාවකම කොමික් පොතකදී හෝ චිත්‍රපටයකදී හෝ 4th wall කි
+යන සංකල්පය නැති චරිතයක්. ඒ කියන්නේ චිත්‍රපටයක චරිතයක් රඟපාද්දී ඒ චරිතයට දැනීමක් 
+නෑ ඔහු හෝ ඇය ඉන්නේ චිත්‍රපටයක් බව. එහෙම නැතිනම් චිත්‍රපටය බලන අතරතුර ප්‍රේක්ශකයා
+ට එය දැනෙන්නට ඉඩ දෙන්නේ නෑ චරිතය චිත්‍රපටයක කොටසක් වග. තවත් පැහැදිලි කලොත්, කතාව
+ක චරිතයක් චිත්‍රපටය තුලදී සිදු කරන දෑ ඒ කතාව තුලදී ප්‍රේක්ශක අපට වගේම චරිතයටත් ස
+ැබෑවක්. නමුත් ඩෙඩ්පූල් කියන චරිතයට ලෝකයේ සිදුවෙන අනෙකුත් හැම දෙයක් ගැනම අවබෝධයක්
+ තියෙනවා. ඒ බව ප්‍රේක්ශකයා සමග බෙදාහදා ගන්න පුළුවන්. කොටින්ම කිව්වොත් චිත්‍රපටයට
+ අදාල හේතු කාරණා අනුව චරිතය ප්‍රතික්‍රියා දැක්වුවත් ඔහු දන්නවා තමුන් ඉන්නේ චිත්‍
+රපටයක් තුල බව. ඒ නිසා තමයි චිත්‍රපටය අතරතුර ඩෙඩ්පූල් කැමරාව දිහාවට හැරිලා ප්‍රේක
+්ශකයාට මොනාහරි දෙයක් කියන්නේ. ඉහත කාරණාව නිසාම බොහෝමයක් චිත්‍රපට වලදී සුපිරි වීර
+යින් පාවිච්චි කරන ප්‍රයෝගයන් පවා සැබෑ ජීවිතේ ප්‍රායෝගික නැති බවත් කෙලින්ම චිත්‍ර
+පටිය තුලින්ම පෙන්වන්නේ ඔහු ඒවා කරන ගමන්මයි. මේ නිසා කතාවේ හාස්‍ය රසය තවත් වැඩි ක
+රලා පෙන්වන්න චරිතයට හැකියාවක් ලැබෙනවා. ඒ වගේම ඒ ඒ චරිත හැසිරෙන ආකාරය පොතේ ගුරා ව
+ිදියට පහසුවෙන්ම දැක්වීමේ හැකියාවකුත් චරිතයට ලැබෙනවා.මේ විදියට ගලාගෙන ආපු ඩෙඩ්පූල
+් කතා මාලාව ඉදිරියේදී තමුන්ගේම කියලා චරිත ටිකක් වර්ධනය කරගන්න පාටක් තමයි මේ කතාව
+ බැලුවොත් පේන්න තියෙන්නේ. මොකද කිව්වොත් කතාව ඇතුලේ වගේම පූර්ව ප්‍රචාරක පටයේ එක් 
+තැනක වෙඩ් විල්සන් කියනවා…“…අපිට මල ඉලවු කණ්ඩායමක් හදන්න වෙනවා. උන් තදයෝ වෙන්නත් 
+ඕනේ, සදාචාරේ අඩුවෙන්න ඕනේ, අවුරුදු 10ක් 12ක් මේ ෆිල්ම් එක ඇදගෙන යන්න පුළුවන් තරම
+් වයස අඩු වෙන්නත් ඕනේ.”පේන විදියට වෙන කවුරු කතාව අතෑරලා දාන්න හැදුවත් නලුවා වැඩේ
+ අතාරින්න කැමති නෑ වගේ. කොහොම වුනත් ඉදිරියේදී අපිට ඩෙඩ්පූල් තවත් චිත්‍රපටයක් දකි
+න්න ලැබෙයි කියලා බලාපොරොත්තු වෙන්න පුළුවන්.හොදයි ඉතිං, දැන් ලිපිය කියෙව්වා ඇතිනේ
+. අවුරුදු දෙකකට කලින් බලපු චිත්‍රපටියක් ගැන ලිපියක් පිරෙන්න කියවපු එකේ කොහොමද අල
+ුත් එක බැලුවොත්? එහෙනං උපසිරැසිය බාගෙන කතාව බලන්න කියලා හැමෝටම ආරාධනා කරනවා. ඒ ව
+ගේම වයස අවුරුදු 18ට වැඩි පොඩි ළමයි ඉන්නවනං ගෙදර මිනිස්සු ඉන්න තැනක නැතුව දොර ජනෙ
+ල් වහගෙන කතාව බලන තරමට හොදයි. මොකද කිව්වොත් ඩෙඩ්පූල් කියන්නේ පවුලේ කතාවක් වුනත් 
+පටන් ගන්නේ අමු කුණුහරුප වලින් නිසා. ?ආයු -බෝ -වේවා !!!ලිපිය උපුටා ගැනීම :- Baisc
+ope.lk හි පලවූ ප්‍රණිත් රණසිංහ සහෝදරයාගේ ලිපියඋපසිරසි හදල දෙන වෙබ්සයිට් එකෙන් හැ
+මවෙලේම උපසිරසි ඩවුන්ලෝඩ් කරගන්න බලන්න ඒ වගේම උපසිරසි හදන අයව කමෙන්ට් කරල දිරිමත්
+ කරන්න. ඒක මේ වෙබ්සයිට් එකේ විතරක් නෙමෙයි ඕනෙම එකක කරන්න . මොකද එයාල කාලය මහන්සි
+ය කැපකරල ලොකු සේවයක් කරන්නෙ\n' +
+      'Original ලිපිය හා උපසිරසිය පමණක් ලබාගැනීමට පහත සිංහල උපසිරසි Link එකෙන් ප
+ිවිසෙන්න',
+    image: 'https://sinhalasub.lk/wp-content/uploads/2018/05/gyfPKfFYcVW54MoqhYlwwDDIfJR-200x300.jpg',
+    dl_links: [ [Object], [Object], [Object] ]
   }
 }
 ```
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@sanuwaofficial](https://github.com/sanuwaofficial) - scraped project author
+- [@DarkYasiyaofc](https://github.com/DarkYasiyaofc) - scraped project author
 
-See also the list of [contributors](https://github.com/SL-CODE-LORDS/movie-dl/contributors) who participated in this project.
